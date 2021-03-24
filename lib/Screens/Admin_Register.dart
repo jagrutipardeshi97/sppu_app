@@ -1,5 +1,6 @@
 import"package:flutter/material.dart";
 import 'package:flutter/services.dart';
+import 'package:sppu_app/Screens/Verify_Admin.dart';
 
 class Admin extends StatefulWidget{
   @override
@@ -214,15 +215,23 @@ class _Admin extends State<Admin> {
   Widget forgotbutton() {
     return Container(
       alignment: Alignment.centerRight,
-      child: FlatButton(
-        onPressed: () => print("forgot password pressed"),
+      child: RaisedButton(
+        onPressed: ()
+    {
+      Navigator.of(context)
+          .push(
+          MaterialPageRoute(
+            builder: (context) => VerifyAdmin(),)
+      );
+    },
+
         padding: EdgeInsets.only(right: 0),
 
         child: Text(
           "Already Register? Login Here",
 
           style: TextStyle(
-            color: Colors.white,
+            color: Colors.black,
             fontSize: 18,
             fontWeight: FontWeight.bold,
           ),

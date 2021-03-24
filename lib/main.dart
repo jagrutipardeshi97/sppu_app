@@ -8,8 +8,8 @@ class myapp extends StatelessWidget{
   Widget build(BuildContext context) => MaterialApp(
     debugShowCheckedModeBanner: false,
 
-    //home: Admin(),
-    home:PasswordReset(),
+    home: Admin(),
+    //home:PasswordReset(),
     //home:VerifyAdmin(),
   );
 
