@@ -45,12 +45,14 @@ class _SplashScreen extends State<splash_screen > {
 
               duration: 5,
               splash: "Assets/Images/uni_image.jpeg",
-              // function:duringSplash(),
+
+
+
               nextScreen: select_role(),
               splashTransition: SplashTransition.scaleTransition,
               pageTransitionType: PageTransitionType.topToBottom,
               backgroundColor: Colors.teal[200]
-          )  ;
+          );
 
 
 

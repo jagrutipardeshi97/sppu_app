@@ -20,6 +20,7 @@ class _Selectrole extends State<select_role > {
                 Colors.black.withOpacity(0.2), BlendMode.dstATop),
             image: new NetworkImage(
               'Assets/Images/uni_image.jpeg',
+
             ),
           ),
         ),
@@ -82,6 +83,7 @@ Widget buildAdmin() {
       Container(
         alignment: Alignment.centerLeft,
         decoration: BoxDecoration(
+
             color: Color(0x665ac18e),
             borderRadius: BorderRadius.circular(10),
             boxShadow: [
