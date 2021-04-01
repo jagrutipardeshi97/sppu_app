@@ -49,6 +49,7 @@ class _SplashScreen extends State<splash_screen > {
 
 
               nextScreen: select_role(),
+
               splashTransition: SplashTransition.scaleTransition,
               pageTransitionType: PageTransitionType.topToBottom,
               backgroundColor: Colors.teal[200]

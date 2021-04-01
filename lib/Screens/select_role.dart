@@ -217,6 +217,7 @@ Widget buildguest() {
                 color: Colors.black26,
                 blurRadius: 4,
                 offset: Offset(0, 2),
+
               )
             ]
         ),

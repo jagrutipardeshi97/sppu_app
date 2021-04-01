@@ -236,6 +236,7 @@ class _VerifyAdmin extends State<VerifyAdmin> {
             fontSize: 18,
             fontWeight: FontWeight.bold,
 
+
           ),
 
         ),

@@ -221,6 +221,7 @@ class _PasswordReset extends State<PasswordReset> {
         child: Text(
           "Already Register? Login Here",
 
+
           style: TextStyle(
             color: Colors.white,
             fontSize: 18,

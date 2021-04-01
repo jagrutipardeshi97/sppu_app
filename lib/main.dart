@@ -11,8 +11,8 @@ class myapp extends StatelessWidget{
   Widget build(BuildContext context) => MaterialApp(
     debugShowCheckedModeBanner: false,
 
-    //home: Admin(),
-   home: Navigationdrawer(),
+    home: Admin(),
+   //home: Navigationdrawer(),
   //home:PasswordReset(),
   //home: splash_screen(),
     //home: select_role(),
