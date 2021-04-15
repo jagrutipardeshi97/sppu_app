@@ -1,4 +1,4 @@
-import 'dart:html';
+
 
 import"package:flutter/material.dart";
 import 'package:flutter/services.dart';
@@ -13,6 +13,8 @@ class VerifyAdmin extends StatefulWidget{
 class _VerifyAdmin extends State<VerifyAdmin> {
 
   @override
+
+  
   Widget build(BuildContext context) {
     final _screenSize = MediaQuery
         .of(context)
